@@ -1,8 +1,8 @@
 import Admin from "./Admin.js";
-import Group from "./Group.js";
+import Detail from "./Detail.js";
 import Home from "./Home.js";
 export {
     Admin,
-    Group,
+    Detail,
     Home,
 }

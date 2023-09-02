@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     const listDetail = [
         {
+            "id": 1,
             "imgUrl": "https://trungtran.vn/images/products/2023/resized/lenovo_legion_5_pro_2023_y9000p_12-copy-copy.webp",
             "nameOfProduct": "Legion5",
             "priceSale": 20000000,
@@ -13,6 +14,7 @@ const Home = () => {
             "like": 0,
         },
         {
+            "id": 2,
             "imgUrl": "https://trungtran.vn/images/products/2023/resized/lenovo_legion_5_pro_2023_y9000p_12-copy-copy.webp",
             "nameOfProduct": "Legion5",
             "priceSale": 20000000,
@@ -21,6 +23,7 @@ const Home = () => {
             "like": 0,
         },
         {
+            "id": 3,
             "imgUrl": "https://trungtran.vn/images/products/2023/resized/lenovo_legion_5_pro_2023_y9000p_12-copy-copy.webp",
             "nameOfProduct": "Legion5",
             "priceSale": 20000000,
