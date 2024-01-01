@@ -60,7 +60,7 @@ const Home = () => {
         };
     }, [changeIndex]);
     return (
-        <div className="flex flex-col justify-center lg:px-[120px] px-[20px]">
+        <div className="flex flex-col justify-center items-center">
             <div className="flex justify-center mt-6 text-[16px] font-semibold">
                 <p className="text-[#f26739]">
                     Chiến Game Cực Đỉnh Cùng Các Mẫu Mã Laptop Gaming Lenovo Legion Mới Nhất Với Cấu Hình Khủng!
@@ -93,10 +93,10 @@ const Home = () => {
                     <p className="text-[14px] text-[#098bf6] font-semibold">Tất cả tin tức &gt;</p>
                 </div>
             </div>
-            <div>
+            <div className="w-[1220px]">
                 <div className="flex mt-[68px]">
                     <h3 className="text-[#ff5e22] text-[36px] font-bold inline-block">HOT SALE</h3>
-                    <div className="justify-between w-[207px] text-center mt-1 flex ml-[20px]">
+                    <div className="justify-between text-center mt-1 flex ml-[20px]">
                         <div className="bg-[#FFE4DC] w-[40px] h-[37px] leading-[16px] text-[14px] font-bold rounded-lg pt-1 drop-shadow"> {days} <span className="text-[#6C6A69] text-[12px] block">ngày</span></div>
                         <div className="bg-[#FFE4DC] w-[40px] h-[37px] leading-[16px] text-[14px] font-bold rounded-lg pt-1 drop-shadow"> {hours} <span className="text-[#6C6A69] text-[12px] block">giờ</span></div>
                         <div className="bg-[#FFE4DC] w-[40px] h-[37px] leading-[16px] text-[14px] font-bold rounded-lg pt-1 drop-shadow"> {minutes} <span className="text-[#6C6A69] text-[12px] block">phút</span></div>
@@ -187,7 +187,7 @@ const Home = () => {
                 <div>
                     <div className="flex mt-[68px] justify-between">
                         <h3 className="text-[36px] font-bold inline-block">Apple</h3>
-                        <div className="flex ustify-between gap-[40px] mt-[20px] text-gray-600">
+                        <div className="flex justify-between gap-[40px] mt-[20px] text-gray-600">
                             <Link to="/macbook">Macbook</Link>
                             <Link to="/imac">iMac</Link>
                             <Link to="/mac-mini">Mac Mini</Link>
@@ -199,7 +199,7 @@ const Home = () => {
                 <div>
                     <div className="flex mt-[68px] justify-between">
                         <h3 className="text-[36px] font-bold inline-block">Microsoft Surface</h3>
-                        <div className="flex ustify-between gap-[40px] mt-[20px] text-gray-600">
+                        <div className="flex justify-between gap-[40px] mt-[20px] text-gray-600">
                             <Link to="/surface-laptop-go">Surface Laptop Go</Link>
                             <Link to="/surface-go">Surface Go</Link>
                             <Link to="/surface-pro-7">Surface Pro 7</Link>
@@ -212,7 +212,7 @@ const Home = () => {
                 <div>
                     <div className="flex mt-[68px] justify-between">
                         <h3 className="text-[36px] font-bold inline-block">Đặt Trước, Nhận Ưu Đãi Lớn</h3>
-                        <div className="flex ustify-between gap-[40px] mt-[20px] text-gray-600">
+                        <div className="flex justify-between gap-[40px] mt-[20px] text-gray-600">
                             <Link to="/microsoft" className="text-blue-500">Xem tất cả (560)</Link>
                         </div>
                     </div>
@@ -221,7 +221,7 @@ const Home = () => {
                 <div>
                     <div className="flex mt-[68px] justify-between">
                         <h3 className="text-[36px] font-bold inline-block">Dell Alienware</h3>
-                        <div className="flex ustify-between gap-[40px] mt-[20px] text-gray-600">
+                        <div className="flex justify-between gap-[40px] mt-[20px] text-gray-600">
                             <Link to="/microsoft" className="text-blue-500">Xem tất cả (560)</Link>
                         </div>
                     </div>
@@ -230,7 +230,7 @@ const Home = () => {
                 <div>
                     <div className="flex mt-[68px] justify-between">
                         <h3 className="text-[36px] font-bold inline-block">Phụ Kiện Laptop</h3>
-                        <div className="flex ustify-between gap-[40px] mt-[20px] text-gray-600">
+                        <div className="flex justify-between gap-[40px] mt-[20px] text-gray-600">
                             <Link to="/microsoft" className="text-blue-500">Xem tất cả (560)</Link>
                         </div>
                     </div>
